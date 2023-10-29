@@ -1,0 +1,711 @@
+.main_text1{
+  position: absolute;
+  left:5%;
+  top:68%;
+  font-size: 64px;
+  font-family: 'DoHyeon-Regular';
+  font-weight: bold;
+  color:#424242;
+}
+
+.main_text2{
+  position: absolute;
+  left:5%;
+  top:78%;
+  font-size: 64px;
+  font-family: 'DoHyeon-Regular';
+  font-weight: bold;
+  color:#424242;
+}
+
+.main_line{
+  position: absolute;
+  top:93.5%;
+  background-color: #373737;
+  height: 5px;
+  width: 100%;
+}
+
+.main_line1{
+  position: absolute;
+  background-color: #ffd770;
+  top:13%;
+  left:35%;
+  height: 5px;
+  width: 3%;
+}
+
+.main_line2{
+  position: absolute;
+  top:13%;
+  left:40%;
+  background-color: #fcaa73;;
+  height: 5px;
+  width: 3%;
+}
+
+.main_line3{
+  position: absolute;
+  top:13%;
+  left:50%;
+  background-color: #5aaedf;;
+  height: 5px;
+  width: 3%;
+}
+
+.main_line4{
+  position: absolute;
+  top:13%;
+  left:55%;
+  background-color: #9bf074;;
+  height: 5px;
+  width: 3%;
+  
+}
+
+.main_ph1{
+  position: absolute;
+  width: 30%;
+  height: 90%;
+  left:65%;
+}
+
+.main_ph2{
+  position: absolute;
+  width: 24%;
+  height: 50%;
+  left:5%;
+}
+
+.main_ph3{
+  position: absolute;
+  width: 20%;
+  height: 50%;
+  top:50%;
+  left:15%;
+}
+
+.main_ph4{
+  position: absolute;
+  width: 28%;
+  height: 70%;
+  top:18%;
+  left:33%;
+}
+
+.product_div{
+  position: absolute;
+  width: 100%;
+  height: 90.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'DoHyeon-Regular';
+}
+
+/*.product_footer{
+  position: absolute;
+  top:90%;
+  width: 100%;
+  height: 10%;
+  background-color: #FFFFFF;
+
+}*/
+
+.subtitle1{ 
+  position: absolute;
+  top: 3%;
+  left: 21%;
+  width: 190px;
+}
+
+.subtitle2{
+  position: absolute;
+  top: 3%;
+  left: 36%;
+  width: 190px;
+}
+
+.subtitle3{
+  position: absolute;
+  top: 3%;
+  left: 51%;
+  width: 190px;
+}
+
+.subtitle4{
+  position: absolute;
+  top: 3%;
+  left: 66%;
+  width: 190px;
+}
+
+.spinner{
+  position: absolute;
+  left:48%;
+  top:38%;
+}
+
+   
+.search_button1{
+  position: absolute;
+  top: 15%;
+  left: 85.5%;
+  border: 0;
+  padding-left: 10px;
+  background-color: #000000;
+  border: 0;
+  border-radius: 10px;
+
+  width: 5%;
+  resize: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: 'DoHyeon-Regular';
+}
+
+.select_text_button{
+  position: absolute;
+  top: 42%;
+  left: 85.5%;
+  border: 0;
+  padding-left: 10px;
+  background-color: #000000;
+  border: 0;
+  border-radius: 10px;
+
+  width: 5%;
+  resize: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: 'DoHyeon-Regular';
+}
+
+.change_text_button{
+  position: absolute;
+  top: 15%;
+  left: 78%;
+  border: 0;
+  padding-left: 10px;
+  background-color: #000000;
+  border: 0;
+  border-radius: 10px;
+
+  width: 7%;
+  resize: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: 'DoHyeon-Regular';
+}
+
+.save_text_button{
+  position: absolute;
+  top: 15%;
+  left: 78%;
+  border: 0;
+  padding-left: 10px;
+  background-color: #000000;
+  border: 0;
+  border-radius: 10px;
+  display:none;
+  width: 7%;
+  resize: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: 'DoHyeon-Regular';
+}
+
+.search_button2{
+  position: absolute;
+  top: 60%;
+  left: 85.5%;
+  border: 0;
+  padding-left: 10px;
+  background-color: #000000;
+  border: 0;
+  border-radius: 10px;
+
+  width: 5%;
+  resize: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: 'DoHyeon-Regular';
+}
+
+
+.search_button3{
+  position: absolute;
+  top: 16.5%;
+  left: 36.5%;
+  border: 0;
+  padding-left: 10px;
+  background-color: #000000;
+  border: 0;
+  border-radius: 10px;
+
+  width: 5%;
+  resize: none;
+  padding: 8px 16px;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 26px;
+  color: rgb(255, 255, 255);
+  
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: 'DoHyeon-Regular';
+}
+
+
+.serach_submit {
+    position: absolute;
+ 
+    cursor: pointer;
+    padding: 2px;
+    margin-right: 50px;
+    margin-top: 15px;
+    width: 100px;
+    height: 45px;
+    
+}
+
+.shadow_text{
+  position: absolute;
+  top:14%;
+  left:8%;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: 'DoHyeon-Regular';
+}
+
+
+.shadow_box{
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  left: 10%;
+  top:21%;
+  background-color: #F2F2F2;
+} 
+
+.image_box{
+  position: absolute;
+  width: 30%;
+  height: 50%;
+  left: 13%;
+  top:27%;
+  background-color: #FFFFFF;
+} 
+
+.image_content{
+  position: absolute;
+  display:none;
+  width: 37.5%;
+  height: 49%;
+  left: 9.8%;
+  top:19%;
+  
+}
+
+.image_content2{
+  position: absolute;
+  display:none;
+  width: 37.5%;
+  height: 49%;
+  left: 20.5%;
+  top:19%;
+  
+}
+
+.image_content3{
+  position: absolute;
+  display:none;
+  width: 37.5%;
+  height: 49%;
+  left: 9.8%;
+  top:35%;
+  
+}
+
+.image_content4{
+  position: absolute;
+  display:none;
+  width: 37.5%;
+  height: 49%;
+  left: 20.5%;
+  top:35%;
+  
+}
+
+
+.item_detail{
+  position: absolute;
+  top:18%;
+  left:50%;
+  font-size: 20px;
+  font-family: 'DoHyeon-Regular';
+  font-weight: bold;
+}
+
+.item_detail_content{
+  position: absolute;
+  top:23%;
+  left:50%;
+  height: 20%;
+  width:35%;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'DoHyeon-Regular';
+}
+
+.item_select{
+  position: absolute;
+  top:45%;
+  left:50%;
+  font-size: 20px;
+  font-family: 'DoHyeon-Regular';
+  font-weight: bold;
+}
+
+.item_select_content{
+  position: absolute;
+  display:none;
+  top:44%;
+  left:62%;
+  font-size: 20px;
+  background-color:transparent;
+  color: red;
+  font-family: 'DoHyeon-Regular';
+  font-weight: bold;
+}
+
+.item_line{
+  position: absolute;
+  top:58%;
+  width: 40%;
+  height: 0.1%;
+  left:50%;
+  background-color: #000000;
+}
+
+.item_review{
+  position: absolute;
+  top: 60%;
+  left:50%;
+  font-size: 20px;
+  font-family: 'DoHyeon-Regular';
+  font-weight: bold;
+}
+
+
+.item_review_content{
+  position: absolute;
+  top:65%;
+  left:50%;
+  height: 25%;
+  width:35%;
+  font-size: 16px;
+  text-align: left;
+  font-family: 'DoHyeon-Regular';
+}
+
+
+.item_translation1{
+  position: absolute;
+  top:28%;
+  left:43%;
+  width: 30px;
+  height: 70px;
+  background-color: #FAF0D7;
+  writing-mode: vertical-rl; /* 세로로 글자 표시 */
+  text-orientation: upright; /* 글자 방향 설정 */
+  line-height: 220%;
+  font-weight: bold;
+  font-family: 'DoHyeon-Regular';
+  font-size: 14px;
+  color:rgb(142, 142, 142);
+}
+
+
+.item_translation2{
+  position: absolute;
+  top:40%;
+  left:43%;
+  width: 30px;
+  height: 70px;
+  background-color: #FFD9C0;
+  writing-mode: vertical-rl; /* 세로로 글자 표시 */
+  text-orientation: upright; /* 글자 방향 설정 */
+  line-height: 220%;
+  font-weight: bold;
+  font-family: 'DoHyeon-Regular';
+  font-size: 14px;
+  color:rgb(142, 142, 142);
+}
+
+.item_translation3{
+  position: absolute;
+  top:52%;
+  left:43%;
+  width: 30px;
+  height: 70px;
+  background-color: #8CC0DE;
+  writing-mode: vertical-rl; /* 세로로 글자 표시 */
+  text-orientation: upright; /* 글자 방향 설정 */
+  line-height: 220%;
+  font-weight: bold;
+  font-family: 'DoHyeon-Regular';
+  font-size: 14px;
+  color:rgb(142, 142, 142);
+}
+
+.item_translation4{
+  position: absolute;
+  top:64%;
+  left:43%;
+  width: 30px;
+  height: 70px;
+  background-color: #CCEEBC;
+  writing-mode: vertical-rl; /* 세로로 글자 표시 */
+  text-orientation: upright; /* 글자 방향 설정 */
+  line-height: 220%;
+  font-weight: bold;
+  font-family: 'DoHyeon-Regular';
+  font-size: 14px;
+  color:rgb(142, 142, 142);
+  
+}
+
+.box {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    width: 660px;
+    height:250px;
+    background: #F5F5F5;
+    margin:40px auto;
+    border-radius: 8px;
+}
+
+.effect2 {
+    position: relabsoluteative;
+  }
+  .effect2:before, .effect2:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 42%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  .effect2:after
+  {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+  }
+
+
+  .box2 {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    
+    width:660px;
+    height:250px;
+    background:#F5F5F5;
+    margin:40px auto;
+    border-radius: 8px;
+}
+
+.effect3 {
+    position: relabsoluteative;
+  }
+  .effect3:before, .effect2:after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 42%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+  }
+  .effect3:after
+  {
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+    right: 10px;
+    left: auto;
+  }
+
+
+  .select_text_box1{
+    position: absolute;
+    top:49%;
+    left:50%;
+    display: none;
+    border: 0;
+    padding-left: 10px;
+    background-color: #d2d2d2;
+    border: 0;
+    border-radius: 10px;
+
+    width: 7%;
+    resize: none;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color: rgb(0, 0, 0);
+    
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'DoHyeon-Regular';
+  }
+
+  .select_text_box2{
+    position: absolute;
+    top:49%;
+    left:58%;
+    display: none;
+    border: 0;
+    padding-left: 10px;
+    background-color: #d2d2d2;
+    border: 0;
+    border-radius: 10px;
+
+    width: 7%;
+    resize: none;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color:  rgb(0, 0, 0);
+    
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'DoHyeon-Regular';
+  }
+
+  .select_text_box3{
+    position: absolute;
+    top:49%;
+    left:66%;
+    display: none;
+    border: 0;
+    padding-left: 10px;
+    background-color: #d2d2d2;
+    border: 0;
+    border-radius: 10px;
+
+    width: 7%;
+    resize: none;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color:  rgb(0, 0, 0);
+    
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'DoHyeon-Regular';
+  }
+
+  .select_text_box4{
+    position: absolute;
+    top:49%;
+    left:74%;
+    display: none;
+    border: 0;
+    padding-left: 10px;
+    background-color: #d2d2d2;
+    border: 0;
+    border-radius: 10px;
+
+    width: 7%;
+    resize: none;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color:  rgb(0, 0, 0);
+    
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'DoHyeon-Regular';
+  }
+
+  .select_text_box5{
+    position: absolute;
+    top:49%;
+    left:82%;
+    display: none;
+    border: 0;
+    padding-left: 10px;
+    background-color: 	#d2d2d2;
+    border: 0;
+    border-radius: 10px;
+
+    width: 7%;
+    resize: none;
+    padding: 3px 5px;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 26px;
+    color: rgb(0, 0, 0);
+    
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    font-family: 'DoHyeon-Regular';
+  }
+
+  .textarea{
+    display:none;
+  }
